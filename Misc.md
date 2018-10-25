@@ -26,4 +26,7 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch
 ** hoisting -> moves "only" the declarations (variables and of functions) and not the assignments
 ref: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md#the-compiler-strikes-again
 
+ref:
+https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md#functions-first
+
 ```
