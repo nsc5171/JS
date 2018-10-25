@@ -32,4 +32,9 @@ https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch
 
 closures: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#loops--closure
 
+module pattern: -> it's basically wrapping up all functionality and code in a private function and exposing only the required route for the functionality to be executed
+https://coryrylan.com/blog/javascript-module-pattern-basics
+https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#modern-modules
+
+
 ```
