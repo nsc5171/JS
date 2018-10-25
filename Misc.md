@@ -29,4 +29,7 @@ ref: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closur
 ref:
 https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md#functions-first
 
+
+closures: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#loops--closure
+
 ```
