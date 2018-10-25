@@ -18,4 +18,5 @@ Anonymous functions omit a name that is often helpful in providing more readable
 Inline function expressions are powerful and useful -- the question of anonymous vs. named doesn't detract from that. Providing a name for your function expression quite effectively addresses all these draw-backs, but has no tangible downsides. The best practice is to always name your function expressions.
 
 Block scope -> JS doesn't support it variables when variables are declared with var, but let and const do support. ------??
+catch blocks -> exception object follows block scope by default
 ```
