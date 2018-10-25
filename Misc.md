@@ -19,4 +19,8 @@ Inline function expressions are powerful and useful -- the question of anonymous
 
 Block scope -> JS doesn't support it variables when variables are declared with var, but let and const do support. ------??
 catch blocks -> exception object follows block scope by default
+
+Advantage of block scoping -> better garbage collection
+https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md#garbage-collection
+
 ```
