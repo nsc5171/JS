@@ -5,14 +5,11 @@ even though this seems cool beware that the JS engine must compile and execute t
 with(someObj){
     prop1OfObj="val1";
     prop2OfObj="val2";
-} -> short-hand for manipulating multiple props of an object but side effect is that it goes through auto global variable decclaration as well making it a seriously unwanted thing.
+} -> short-hand for manipulating multiple props of an object but side effect is that it goes through auto global variable declaration as well making it a seriously unwanted thing.
 
-Anonymous function expressions are quick and easy to type, and many libraries and tools tend to encourage this idiomatic style of code. However, they have several draw-backs to consider:
-
+Anonymous function expressions :
 Anonymous functions have no useful name to display in stack traces, which can make debugging more difficult.
-
 Without a name, if the function needs to refer to itself, for recursion, etc., the deprecated arguments.callee reference is unfortunately required. Another example of needing to self-reference is when an event handler function wants to unbind itself after it fires.
-
 Anonymous functions omit a name that is often helpful in providing more readable/understandable code. A descriptive name helps self-document the code in question.
 
 Inline function expressions are powerful and useful -- the question of anonymous vs. named doesn't detract from that. Providing a name for your function expression quite effectively addresses all these draw-backs, but has no tangible downsides. The best practice is to always name your function expressions.
@@ -28,7 +25,6 @@ ref: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closur
 
 ref:
 https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch4.md#functions-first
-
 
 closures: https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#loops--closure
 
